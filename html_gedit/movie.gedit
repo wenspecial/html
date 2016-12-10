@@ -1,0 +1,7 @@
+添加多媒体文件
+可以添加的格式可以是midi,wav,aiff,au
+    基本语法 <embed scr="多媒体文件地址"width="多媒体的宽度"height="多媒体的高度"></embed>
+        width,height一定要设置，单位是像素，否则无法正确显示播放多媒体的软件
+设置自动运行
+    <embed scr="多媒体文件地址"autostart="是否自动运行"loop="是否循环播放"></embed>
+        注:autostart的取值只有两个true,false.loop取值也只有两个true:循环播放 false只播放一次

@@ -1,0 +1,12 @@
+css定义背景效果：
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+背景颜色：
+页面的背景颜色使用在body选择器中
+    body{background-color:#b0c4de}
+背景图像
+默认情况下，背景图像进行平铺显示，以覆盖整个元素实体
+    body{background-image:url('paper.gif');}

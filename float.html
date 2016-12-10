@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>浮动布局</title>
+        <meta http-equiv="content-type"content="text/html;charset=utf-8">
+        <style>
+            #lside{
+                width:20px;
+                height:100px;
+                background:green;
+                float:left;
+            }
+            #rside{
+                width:20px;
+                height:100px;
+                background:red;
+                float:right;/*--加浮动--*/
+            }
+            #comm{
+                width:300px;
+                height:300px;
+                background:orange;
+                clear:left;/*--清楚浮动--*/
+                clear:both;/*所有都清楚*/
+            }
+        </style>
+    </head>
+    <body>
+        <div id="lside">我是左</div>
+        <div id="rside">我是右</div>
+        <div id="comm">我是普通</div>
+    </body>
+</html>

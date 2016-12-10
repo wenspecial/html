@@ -1,0 +1,38 @@
+CSS语法
+CSS声明总是以分号(;)结束，声明组以大括号({})括起来;
+例p{
+    color:red;
+    text-align:center;
+}
+CSS注释
+类似于Ｃ语言"/*"开始"*/"结束
+CSS Id和Class
+    id和Class选择器
+    如果要在html元素中设置CSS样式，你需要在元素中设置"id"和"class"选择器
+id选择器
+id选择器可以为标有特定的HTML元素指定的样式．
+HTML元素以id属性来设置id选择器,CSS中id选择器以"#"来定义
+例如:
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>id</title>
+        <style>
+            #paral{
+                text-align:center;
+                color:red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p id="paral">hello world</p>
+        <p>这个段落不受影响</p>
+    </body>
+</html>
+注:id属性不要以数字开头，数字开头的id在Mozilla/Firfox浏览器中不起作用
+class 选择器
+class选择器用于描述一组元素的样式，class选择器有别于id选择器，class可以在多个元素中使用，class选择器在html中以class属性表现，在CSS中，类似选择器一个点"."号显示,在下面的例子中，所有拥有center类的html元素均为居中，例如：
+    .center{text-align=center;}      
+

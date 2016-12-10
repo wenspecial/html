@@ -1,0 +1,21 @@
+css边框
+边框样式
+border-style
+    dotted:定义一个点线框
+    dashed:定义一个虚线框
+    solid:定义一个实线边界
+    double:定义两个边界．两个边界的宽带和border-width的值相等
+    groove:定义3Ｄ沟槽边界
+    ridge:定义一个3Ｄ脊边界
+    inset:定义一个3Ｄ嵌入边框
+    outset:定义一个3Ｄ突出边框
+边框颜色
+border-color
+边框单独设置的边框
+    border-top-style:
+    border-right-style:
+    border-bottom-style:
+    border-left:solid;
+边框简单属性：
+    border:5px solid red;
+

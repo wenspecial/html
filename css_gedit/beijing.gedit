@@ -1,0 +1,14 @@
+css背景
+css属性定义背景效果：
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+背景颜色
+    body{background-color:#ffffff;}
+css中，颜色值的定义与html类似
+    `十六进制表示
+    `RGB-如:rgb(255,0,0)
+    `颜色名称:red
+

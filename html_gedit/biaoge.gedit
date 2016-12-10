@@ -1,0 +1,55 @@
+表格基础标记
+    表格标记table 行tr 单元格标记td
+    <table>
+    <tr>
+    <td>单元格内的文字</td>
+    <td>单元格内的文字</td>
+    </tr>
+    <tr>
+    <td>单元格内的文字</td>
+    <td>单元格内的文字</td>
+    </tr>
+    </table>
+表格的高度和宽度
+<table width="表格宽度" height="表格高度">
+表格标题
+<caption>表格的标题</caption>
+表格的表头
+    <table>
+    <tr>
+    <th>...</th>
+    ...
+    </tr>
+    </table>
+        例:table.html
+表格的边框宽度
+    <table border="边框宽度">
+        border单位像素
+边框颜色
+    <table border="边框宽度"bordercolor>
+单元格间距
+    <table cellspacing="间距值">
+        单位像素
+单元格边距
+    <table cellpadding="文字与边框距离值">
+        单位像素
+表格背景色
+    <table bgcolor="背景颜色">
+表格背景图片
+    <table backround="背景图片地址">
+设计表头样式<thead>(基本语法)
+    <thead>
+    ...
+    </thead>
+       在该语法中，bgcolor,align，valign的取值范围与单元格的设置方法相同．一个表头只能有一个<thead>标记
+设计表主体样式<tbody>(基本语法)
+    <tbody bgcolor = "背景颜色"align="对齐方式">
+    ...
+    </tbody>
+        在该语法中，bgcolor,align,valign的取值范围与单元格的设置方法相同，一个表头只能有一个<tbody>标记
+设计表尾样式<tfoot>
+    <tfoot bgcolor="背景颜色"align="对齐方式"valign="垂直对齐方式">
+    ...
+    </tfoot>
+    
+例：tab.thml

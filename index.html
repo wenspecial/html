@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>代码统计器</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+</head>
+<body bgcolor="#cccccc">
+    <p><b><font face="宋体"size="6"color="#567280"><center>代码统计器</font></b></p>
+    <hr width="800"size="8"color="#d8d8d8">
+   <marquee alight=up direction=up behavior="scroll" loop=-1 scrollamount="3" width="700"height="30"scrollamount=10 scrolldelay=250 onmouseover="this.stop();"onmouseout="this.start();"> 
+<p><font face="楷体"size="4"color="#5e717f">欢迎使用 fly cold 代码统计器</font></p>
+<p><font face="楷体"size="4"color="#5e717f">当您在文本框提交时，请务必输入用户名</font></p>
+<p><font face="楷体"size="4"color="#5e717f">本工具适用于c语言及其衍生语言</font></p>
+<p><font face="楷体"size="4"color="#5e717f">使用中若有任何问题，请与我们联系</font></p>
+</marquee>
+	<div>
+	<FORM name="addForm" METHOD="POST" ACTION="result.php" > 
+	<p><font face="楷体"size="3"color="#3333cc">用户名：<br /><INPUT TYPE="text" NAME="username" SIZE="7"ROWS="15"cols="20"/><br /> 
+	<p><font face="楷体"size="3"color="#3333cc">内容：<br /><TEXTAREA NAME="code" ROWS="15" COLS="50" style="overflow:scroll; overflow-x:hidden"></TEXTAREA><br /> 
+	<INPUT TYPE="submit" name="submit" value="提交" /></FORM>
+	
+	<hr width="800"size="8"color="#d8d8d8">
+	
+	<form action="upload_file.php" method="post" enctype="multipart/form-data">
+	<label for="file">文件名:</label>
+	<input type="file" name="file" id="file" /> 
+	<br />
+	<input type="submit" name="submit" value="上传" />
+	</form>
+	</div>
+<a href="message/index.html"><p><font face="楷体"size="2"color="#5e717f">若有任何问题，请与我们联系</font></p></a>
+ <hr color="#d8d8d8">   
+<p><font face="楷体"size="2"color="#5e717f">西安邮电大学｜Copyright &copy; flycold.cn,All Rights Reserved</font></p>
+<a href="message/index.html"><p><font face="楷体"size="2"color="#5e717f">联系我们</font></p></a>
+</body>
+</html>
